@@ -15,8 +15,6 @@ mail_settings = {
 app.config.update(mail_settings)
 mail = Mail(app)
 
-
-
 @app.route('/')
 def index():
     return render_template('index.html')
